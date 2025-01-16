@@ -217,3 +217,144 @@ body{
     transform: scale(1.2);
 
 }
+/* Overall container styling for the Deals section and Ad Banner */
+.deals-container {
+    display: flex;               /* Use flexbox to align both sections horizontally */
+    gap: 20px; 
+    margin-left: 20px;                  /* Add space between the deals section and the ad banner */
+  }
+  
+  /* Deals section styling */
+  .deals-section {
+    width: 80%;                  /* Decrease the width of the deals section */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 0;              /* Remove any margin, making it start from the left edge */
+  }
+  
+  .deals-section .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+  }
+  
+  .deals-section .header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .timer-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .clock-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  
+  .timer {
+    font-size: 16px;
+    color: #ff5722;
+    font-weight: bold;
+  }
+  
+  .view-all-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .view-all-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .product-card-section {
+    width: 100%;
+  }
+  
+  .card {
+    width: 100%;
+  }
+  
+  .image-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  
+  .product-card {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.1);
+  }
+  
+  .product-card img {
+    width: 150px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .product-details {
+    padding-top: 10px;
+  }
+  
+  .product-name {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    font-size: 14px;
+    color: #28a745;
+    margin: 5px 0;
+  }
+  
+  .product-discount {
+    font-size: 12px;
+    color: #d9534f;
+  }
+  
+  .product-description {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+    line-height: 1.5;
+  }
+  
+  /* Ad Banner Styling */
+  .ad-banner {
+    width: 20%;                  /* Set the width of the ad banner */
+    position: relative;
+  }
+  
+  .ad-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
