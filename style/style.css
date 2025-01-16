@@ -317,6 +317,29 @@ body{
     border-radius: 5px;
   }
   
+  .scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0.7;
+    height: 50px;
+   /* Start hidden, will be shown only when needed */
+  }
+  .left-arrow {
+    left: 10px;
+    visibility: hidden;
+  }
+  
+  .right-arrow {
+    right: 320px;
+  }
   .product-details {
     padding-top: 10px;
   }
