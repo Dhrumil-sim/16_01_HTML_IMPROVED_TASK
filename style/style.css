@@ -357,6 +357,7 @@ body{
   }
   
   .product-discount {
+    margin-top: 12px;
     font-size: 12px;
     color: #d9534f;
   }
