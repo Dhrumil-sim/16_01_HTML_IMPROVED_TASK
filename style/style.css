@@ -11,19 +11,28 @@ body{
     align-items: center;    
     height: 100px;
     padding: 0 20px;
+    justify-content:space-between;
+    position: relative;
+}
+
+.nav-bar .logo{
+    display: flex;
+    align-items: center;
+    margin-left: 240px;
 }
 .nav-bar .logo img{
-    margin-left: 3%;
     cursor: pointer;
     width: 160px;
     height: 40px;   
-    position: absolute;
-    left: 30px;
 }
 .search-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 30%; 
+    justify-content: center;
     position: relative;
-    width: 30%;
-    margin-left: 20%;
+    margin-left: 20px;
 }
 .nav-bar .search-box {
     width: 100%; /* Make the search box take the full width of the container */
@@ -33,7 +42,9 @@ body{
     font-size: 1rem;
     border: none;
     padding-right: 40px; /* Add some padding to the right to make space for the icon */
-    background-color: #ffffff9c;
+    background-color: #fff;
+    margin-left: 20px;
+    border: none;
 }
 .search-icon {
     position: absolute;
@@ -46,7 +57,7 @@ body{
 }
 .nav-bar .rightmenu{
     display: flex;
-    margin-left: 4%;
+    margin-left: auto;
     align-items: center;
 }
 .rightmenu .RM-I {
@@ -70,7 +81,7 @@ body{
     background-color: rgba(255, 255, 255, 0.1); /* Slight hover effect */
 }
 
-/* Arrow icon (Chevron) */
+
 .more-btn i {
     font-size: 14px;
     transition: transform 0.3s ease; /* Smooth transition for rotation */
@@ -83,12 +94,18 @@ body{
 .rightmenu .LoginButton{
     background-color: white;
     font-size: 16px;
+    font-weight: bold;
     color: #047BD5;
     width: 100px;   
     height: 40px;
     cursor: pointer; 
     border: 1px solid #047BD5;
     border-radius: 5px;   
+}
+.LoginButton:hover{
+    background-color: lightblue;
+    color: white;
+  text-decoration: solid;
 }
 .rightmenu .cart{
     background-color: transparent;
