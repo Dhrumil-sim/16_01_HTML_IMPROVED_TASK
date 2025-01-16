@@ -18,7 +18,7 @@ body{
 .nav-bar .logo{
     display: flex;
     align-items: center;
-    margin-left: 240px;
+    margin-left: 25%;
 }
 .nav-bar .logo img{
     cursor: pointer;
