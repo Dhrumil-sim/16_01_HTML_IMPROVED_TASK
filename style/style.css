@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #FAF9F6;
+}
+.nav-bar{
+    background-color: #047BD5;
+    display: flex;  
+    align-items: center;    
+    height: 100px;
+    padding: 0 20px;
+}
+.nav-bar .logo img{
+    margin-left: 3%;
+    cursor: pointer;
+    width: 160px;
+    height: 40px;   
+    position: absolute;
+    left: 30px;
+}
+.search-container {
+    position: relative;
+    width: 30%;
+    margin-left: 20%;
+}
+.nav-bar .search-box {
+    width: 100%; /* Make the search box take the full width of the container */
+    height: 40px; /* Set the h  eight of the input box */
+    border-radius: 5px; 
+    padding: 5px 10px;
+    font-size: 1rem;
+    border: none;
+    padding-right: 40px; /* Add some padding to the right to make space for the icon */
+    background-color: #ffffff9c;
+}
+.search-icon {
+    position: absolute;
+    right: 10px; /* Position the icon 10px from the right edge of the input */
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center the icon */
+    font-size: 20px; /* Icon size */
+    color: #047BD5; /* Icon color (same as the nav-bar color) */
+    cursor: pointer;
+}
+.nav-bar .rightmenu{
+    display: flex;
+    margin-left: 4%;
+    align-items: center;
+}
+.rightmenu .RM-I {
+    margin-left: 50px;  
+}
+
+.more-btn {
+    background-color: transparent; /* Transparent background */
+    color: white; /* Text color */
+    padding: 10px 20px; 
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; /* Space between the text and arrow */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.more-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Slight hover effect */
+}
+
+/* Arrow icon (Chevron) */
+.more-btn i {
+    font-size: 14px;
+    transition: transform 0.3s ease; /* Smooth transition for rotation */
+}
+
+/* Rotate the arrow when hovering */
+.more-btn:hover i {
+    transform: rotate(180deg); /* Flip the arrow to face upwards */
+}
+.rightmenu .LoginButton{
+    background-color: white;
+    font-size: 16px;
+    color: #047BD5;
+    width: 100px;   
+    height: 40px;
+    cursor: pointer; 
+    border: 1px solid #047BD5;
+    border-radius: 5px;   
+}
+.rightmenu .cart{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+.rightmenu .cart:hover {
+    color: lightblue;
+    transform: scale(1.1);
+  }
+  .rightmenu button{
+    background-color: #047BD5;
+    color: white;
+    padding: 10px;
+    font-size: 18px;    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
