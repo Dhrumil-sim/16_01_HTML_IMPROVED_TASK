@@ -18,7 +18,7 @@ body{
 .nav-bar .logo{
     display: flex;
     align-items: center;
-    margin-left: 25%;
+    margin-left: 23%;
 }
 .nav-bar .logo img{
     cursor: pointer;
@@ -175,4 +175,45 @@ body{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.category{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.cat-item{
+    text-align: center;
+    width: 120px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.cat-item img{
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.cat-item .category-name{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    width: 100%;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+.cat-item:hover img{
+    transform: scale(1.2);
+}
+.cat-item:hover .category-name{
+    transform: scale(1.2);
+
 }
