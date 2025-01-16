@@ -64,6 +64,9 @@ body{
     margin-left: 50px;  
 }
 
+.dropdown{
+    position: relative;
+}
 .more-btn {
     background-color: transparent; /* Transparent background */
     color: white; /* Text color */
@@ -90,6 +93,45 @@ body{
 /* Rotate the arrow when hovering */
 .more-btn:hover i {
     transform: rotate(180deg); /* Flip the arrow to face upwards */
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 200px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content ul{
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+}
+
+.dropdown-content li{
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.dropdown-content li:hover {
+    background-color: #047BD5;
+    color: white;   
+}
+.dropdown-content a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
 }
 .rightmenu .LoginButton{
     background-color: white;
