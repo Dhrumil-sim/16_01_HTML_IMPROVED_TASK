@@ -177,6 +177,89 @@ body{
     cursor: pointer;
 }
 
+
+@media (max-width: 1024px) {
+  .nav-bar {
+      padding: 0 15px;
+  }
+
+  .nav-bar .logo {
+      margin-left: 10%;  /* Decrease logo margin */
+  }
+
+  .nav-bar .search-container {
+      width: 60%;  /* Reduce search bar width */
+  }
+
+  .rightmenu {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: auto;
+  }
+
+  .rightmenu .RM-I {
+      margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .nav-bar {
+      flex-direction: column;
+      align-items: flex-start;
+      height: auto;
+      padding: 15px;
+  }
+
+  .nav-bar .logo {
+      margin-left: 0;
+      text-align: center;
+      margin-bottom: 15px;
+  }
+
+  .search-container {
+      width: 100%;
+      margin: 10px 0;
+      justify-content: space-between;
+  }
+
+  .nav-bar .search-box {
+      width: 85%;
+  }
+
+  .search-icon {
+      right: 15px;  /* Adjust icon position */
+  }
+
+  .rightmenu {
+      width: 100%;
+      justify-content: space-around;
+      margin-left: 0;
+      margin-top: 15px;
+  }
+
+  .rightmenu .RM-I {
+      margin-left: 10px;
+  }
+
+  .dropdown-content {
+      width: 100%;
+      box-shadow: none;  /* Remove shadow on mobile */
+  }
+
+  .more-btn {
+      width: 100%;
+      justify-content: space-between;
+  }
+
+  .rightmenu .cart {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+  }
+}
+
+
 .category{
    
     display: flex;
@@ -217,6 +300,27 @@ body{
     transform: scale(1.2);
 
 }
+
+@media (max-width: 1024px) {
+  .category {
+      justify-content: center;
+      gap: 15px;
+  }
+
+  .cat-item {
+      width: 100px;
+  }
+
+  .cat-item .category-name {
+      font-size: 13px;  /* Slightly smaller font on tablet */
+  }
+
+  .cat-item img {
+      width: 55px;
+      height: 55px;
+  }
+}
+
 /* Overall container styling for the Deals section and Ad Banner */
 .deals-container {
   display: flex;
