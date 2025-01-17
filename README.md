@@ -1,3 +1,4 @@
+![Image](https://github.com/user-attachments/assets/7770fbc0-2aa6-448f-95a5-3857defcea00)
 # Website Layout and Responsiveness Showcase
 
 This document provides an overview of the key functionalities, sections, and responsive behavior used in the CSS and HTML layout for the website. Each section of the website is designed to offer an intuitive, clean, and responsive user interface across different screen sizes.
